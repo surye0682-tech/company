@@ -334,13 +334,13 @@
             <div class="container">
                 <h3>Pesan Sekarang atau Kunjungi Kami</h3>
                 <p>Kami siap menerima pesanan Anda untuk acara khusus atau hanya untuk sarapan besok.</p>
-                <p>📍 Alamat: Jl. Roti Manis No. 10, Kota Lezat</p>
-                <p>📞 Telepon: (021) 9876 5432</p>
+                <p>📍 Alamat: Desa eretan wetan, blok prempu 1 RT/RW: 04/04</p>
+                <p>📞 Telepon: +62 831-6656-6261</p>
                 
                 <form id="contactForm" class="contact-form">
                     <input type="text" name="nama" placeholder="Nama Anda" required>
-                    <input type="email" name="email" placeholder="Email Anda" required>
-                    <textarea name="pesan" placeholder="Jenis Pesanan/Pertanyaan Anda" required></textarea>
+                    <input type="text" name="No_Telepon" placeholder="Nomor Telepon Anda" required>
+                    <textarea name="pesan" placeholder="Jenis Pesanan/Pesan" required></textarea>
                     <button type="submit" class="btn-submit">Kirim Pesanan</button>
                 </form>
             </div>
@@ -393,7 +393,7 @@
             const contactForm = document.getElementById('contactForm');
             
             // ⚠️ GANTI PLACEHOLDER INI DENGAN URL WEB APP ANDA YANG SUDAH DI DEPLOY DARI GOOGLE APPS SCRIPT!
-            const GAS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzjruCSIzO2hQne69S7kQlPiwKxgeEj5GqL-VMfKyQP6t0rCOd2REeXdZrWtxy0NRrA/exec'; 
+            const GAS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycby4KR87qWnfqUsxOurKkXla_fAh5XsVCU7hGqMD69B_KxLFrZ2AqrsxoUjCiDAF1umW/exec'; 
             
             contactForm.addEventListener('submit', function(e) {
                 e.preventDefault();
